@@ -1,0 +1,4 @@
+./xls_work/W文本.xlsx
+./xls
+J剧情.xlsx|S手机.xlsx|W微博.xlsx
+PlotDialog|PlotWeibo|PhoneChat|PhoneTalk|WeiboMessage|WeiboForward|WeiboNPCMessage|WeiboNPCComment|WeiboReply

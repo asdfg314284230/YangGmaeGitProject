@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <model name="GameConfCfg" desc="配置信息">
+    <item tag="1" name="Id" type="int" desc="id" />
+    <item tag="2" name="ZombiesAttack" type="int" desc="僵尸攻击" />
+    <item tag="3" name="ZombesHp" type="int" desc="僵尸血量" />
+    <item tag="4" name="ZombesSpeed" type="int" desc="僵尸移速" />
+    <item tag="5" name="GfitName" type="string" desc="对应礼物名称" />
+    <item tag="6" name="ZombiesName" type="string" desc="僵尸名字" />
+    <item tag="7" name="zombiesSize" type="string" desc="僵尸大小" />
+    <item tag="8" name="zombiesLv" type="int" desc="僵尸等级" />
+  </model>
+  <model name="PlantsConfCfg" desc="配置信息">
+    <item tag="1" name="Id" type="int" desc="id" />
+    <item tag="2" name="PlantAttack" type="int" desc="植物攻击" />
+    <item tag="3" name="PlantsHp" type="int" desc="植物血量" />
+    <item tag="4" name="PlantSpeed" type="string" desc="植物攻速移速/每多少秒" />
+    <item tag="5" name="bulletSpeed" type="string" desc="子弹移动速度" />
+    <item tag="6" name="bulletNum" type="int" desc="子弹个数" />
+    <item tag="7" name="plantName" type="string" desc="植物名字" />
+    <item tag="8" name="plantid" type="int" desc="植物序列号/不可更改" />
+    <item tag="9" name="plantType" type="int" desc="植物类型/不可更改" />
+    <item tag="10" name="plantSuns" type="int" desc="植物花费" />
+  </model>
+</meta>

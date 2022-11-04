@@ -1,0 +1,6 @@
+./xls_work
+./xls_work/W文本.xlsx
+D:\Dingding\DingDingReceivedFile\我的舞台-本地化 分为两列.xlsx
+1000000000
+J剧情.xlsx|S手机.xlsx|W微博.xlsx
+PlotDialog|PlotWeibo|PhoneChat|PhoneTalk|WeiboMessage|WeiboForward|WeiboNPCMessage|WeiboNPCComment|WeiboReply

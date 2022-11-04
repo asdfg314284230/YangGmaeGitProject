@@ -1,0 +1,10 @@
+﻿excel_ref_check是excel配表引用检查器
+1. 使用场景是 【基础xlsx】的【基础sheet】的【基础字段】 引用了 【引用xlsx】的【引用sheet】的【引用字段】 
+用本工具可以查询【基础字段】是否配错
+2. 使用前请打开excel_ref_check_conf.txt进行编辑
+excel_ref_check_conf.txt第一行是xlsx文件夹路径
+从第二行开始的格式是：
+【基础xlsx名（不带后缀）】 【基础sheet名】 【基础字段名】 【引用xlsx名（不带后缀）】 【引用sheet名】 【引用字段】 
+
+
+

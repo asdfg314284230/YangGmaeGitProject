@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <model name="KeyValue" desc="键值对">
+    <item tag="1" name="Key" type="int" desc="Key" />
+    <item tag="2" name="Value" type="int" desc="Value" />
+  </model>
+  <model name="Vec3" desc="坐标">
+    <item tag="1" name="A" type="int" desc="A" />
+    <item tag="2" name="B" type="int" desc="B" />
+	  <item tag="3" name="C" type="int" desc="C" />
+  </model>
+  <model name="Vec2" desc="坐标">
+    <item tag="1" name="X" type="int" desc="X" />
+    <item tag="2" name="Y" type="int" desc="Y" /> 
+  </model>
+</meta>

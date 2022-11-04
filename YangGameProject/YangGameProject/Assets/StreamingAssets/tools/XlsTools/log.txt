@@ -1,0 +1,8 @@
+16:54:13 Meta加载完成。
+16:54:13 配置列表加载完成，count=1
+
+16:54:13 开始转换:GameConfCfg-
+16:54:13 从excel中读取到记录条数：10
+16:54:13 保存Dat数据文件：E:\waibao\yun\PlantsVSZombies\PlantsVsZombies\Assets\StreamingAssets\tools\XlsTools\out\dat\GameConfCfg.dat
+16:54:13 保存Lua数据文件：E:\waibao\yun\PlantsVSZombies\PlantsVsZombies\Assets\StreamingAssets\tools\XlsTools\out\dat\GameConfCfg.dat
+16:54:13 全部转换完成：成功/总数=1/1

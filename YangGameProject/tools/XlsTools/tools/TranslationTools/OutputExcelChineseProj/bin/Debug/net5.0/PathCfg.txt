@@ -1,0 +1,4 @@
+﻿./xls_work
+./索引有效文本集合Json.json
+./SheetJson.json
+Text|PlotDialog|PlotWeibo|PhoneChat|PhoneTalk|WeiboMessage|WeiboForward|WeiboNPCMessage|WeiboNPCComment|WeiboReply|TextTranslation

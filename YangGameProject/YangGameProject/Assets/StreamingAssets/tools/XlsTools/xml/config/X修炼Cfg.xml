@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <model name="XiuLianConfCfg" desc="配置信息">
+    <item tag="1" name="LevelId" type="int" desc="等级" />
+    <item tag="2" name="Name" type="string" desc="阶级名称" />
+    <item tag="3" name="LevelUp" type="int" desc="升级所需经验" />
+    <item tag="4" name="SkillLImit" type="int" desc="技能权限" />
+    <item tag="5" name="RoleName" type="string" desc="对应的角色名称" />
+    <item tag="6" name="LevelUpPr" type="int" desc="成功概率（百分制）" />
+    <item tag="7" name="UpEffectName" type="string" desc="特效名称(突破)" />
+    <item tag="8" name="FightMaxHp" type="int" desc="战斗场景最大血量" />
+  </model>
+  <model name="XiuLianSkillCfg" desc="配置信息">
+    <item tag="1" name="SkillId" type="int" desc="技能ID" />
+    <item tag="2" name="SkillName" type="string" desc="技能名称" />
+    <item tag="3" name="SkillCd" type="int" desc="技能CD" />
+    <item tag="4" name="SkillAtk" type="int" desc="技能对于造成的数值（群回复保底500）" />
+    <item tag="5" name="SkillType" type="string" desc="技能类型" />
+    <item tag="6" name="GameScene" type="int" desc="场景类型" />
+    <item tag="7" name="SkillAni" type="string" desc="技能动画" />
+    <item tag="8" name="SkillLimit" type="int" desc="技能权限" />
+  </model>
+</meta>

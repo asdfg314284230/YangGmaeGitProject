@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <model name="RewardTestCfg" desc="配置信息">
+    <item tag="1" name="GiftId" type="int" desc="礼物ID" />
+    <item tag="2" name="GiftName" type="string" desc="礼物名称" />
+    <item tag="3" name="Value" type="int" desc="礼物价值" />
+  </model>
+</meta>

@@ -1,0 +1,9 @@
+﻿PathCfg中
+第一行是你的电脑上工程excel文件所在的文件夹  形如：D:\xingchengProject\client\StardomTrunk\tools\XlsTools\xls
+第二行是你想要把提取文本输出的路径                形如：C:/Users/10799/Desktop/索引有效文本集合Json.txt
+第三行是SheetJson文件所在路径
+第四行是黑名单，即不需要遍历提取文本的表(Sheet)中间请以分隔符‘|’做分割(有多个的情况下,单个不需要)   形如：Text|Gem|Help
+表以 # 开头的默认不提取，为注释表
+
+*使用前请关闭相关表的xls文件
+*把路径填好之后 请执行该文件夹下的OutputExcelChineseProj.exe

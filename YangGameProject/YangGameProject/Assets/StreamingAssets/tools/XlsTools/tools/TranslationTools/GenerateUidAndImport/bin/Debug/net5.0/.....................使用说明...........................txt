@@ -1,0 +1,14 @@
+﻿第一行:json文件所在的路径（该路径就是由OutputExcelChineseProj.exe程序配置生成的输出json文件路径，使用前请确保此文件存在）         
+形如:C:/Users/10799/Desktop/索引有效文本集合Json.json
+第二行:复制xls文件的放置路径 形如:C:/Users/10799/Desktop/test/output
+第三行:原xls文件所在的路径 形如:D:\xingchengProject\client\StardomTrunk\tools\XlsTools\xls
+第四行:SheetJson文件所在路径  用于维护每个带TR的sheet的id
+第五行:文本id的起始值 形如:500000000
+第六行:Sheet区间的大小 比如:100000
+
+*该程序将会拷贝原xls所有文件，并在拷贝文件上做出修改，而不会修改原文件
+*文本id起始值，请勿与Text表中现有的id冲突
+
+
+
+*生成uid，并写入到文本的工具

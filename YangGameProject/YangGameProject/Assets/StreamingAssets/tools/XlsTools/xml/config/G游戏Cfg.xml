@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <model name="GameConfCfg" desc="配置信息">
+    <item tag="1" name="Id" type="int" desc="id" />
+    <item tag="2" name="GameZiDan" type="int" desc="玩家子弹数" />
+    <item tag="3" name="HuanDanTime" type="int" desc="换弹时间" />
+    <item tag="4" name="EnemyHp" type="int" desc="怪物基础血量" />
+    <item tag="5" name="EnemyAddHp" type="int" desc="怪物刷礼加成" />
+    <item tag="6" name="PlayerAtk" type="int" desc="主播基础攻击力" />
+    <item tag="7" name="EnemyAtk" type="int" desc="玩家基础攻击力" />
+    <item tag="8" name="EnemyMaxHp" type="int" desc="怪物刷礼物最大血量上限" />
+    <item tag="9" name="PlayerMaxHp" type="int" desc="主播基础血量" />
+    <item tag="10" name="EnemyScale" type="int" desc="怪物放大系数（百分比）" />
+  </model>
+</meta>

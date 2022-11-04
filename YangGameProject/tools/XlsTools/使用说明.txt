@@ -1,0 +1,37 @@
+﻿首先安装python
+然后用cmd调用pip install openpyxl
+另外在安装目录复制一个python3.exe出来
+
+
+out文件夹是输出文件夹,每次都是删除这个文件夹然后重新生成,最终会copy到项目目录下面
+
+tools文件夹是工具exe所在
+
+xls是配置表所在
+
+xml是解析文件所在
+
+config--文本收集写入.bat 用于将其他表的文本收集到文本表 在导表前需要先执行一次
+
+config--xml生成工具.bat 文件作用是生成xml解析文件 (如果是新增表或者新增sheet或者是修改了表结构就需要双击这个文件)
+config--策划使用.bat 文件是导出配置,拷贝文件于一体的一个命令文件
+config--程序使用.bat 文件是集合svn更新,导出配置,拷贝文件于一体的一个命令文件
+
+config--钧汉使用-单独生成表内容工具2 及 表结构.bat
+config--钧汉使用-单独生成表内容工具2.bat
+上面这两个工具用于导部分表
+需要先配置XlsTools/tools/xproto/requireSheetNameListForXProto2.txt
+配置方式是逐行配置需要导的Worksheet名称
+
+log.txt是导出的日志文件,出现问题可以查看,无法解决找陈鹏处理
+
+
+策划需要做的事情:
+	
+	xls文件夹中添加或者修改配置文件,文件名和sheet名字要注意不要有奇怪的字符
+	如果不想要一个表中的sheet,就在sheet名字上补充一个'#'号 
+
+
+
+重要!!!!!!!!!!!!!!!!!!!!!!!!!
+目前支持 int    int64    string  和键值对(Key-Value),和list列表 举例  A|B;C|D;M|N这样的格式

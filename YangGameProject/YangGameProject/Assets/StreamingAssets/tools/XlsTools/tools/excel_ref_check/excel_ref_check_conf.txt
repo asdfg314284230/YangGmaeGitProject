@@ -1,0 +1,75 @@
+E:\stardomProject\client\Trunk\tools\XlsTools\xls_work
+W物品 Items Icon T图标 Icons Id
+W物品 Items MiniIcon T图标 Icons Id
+W物品 Items Source W物品 ItemSource Id
+W物品 ItemSource GotoID J界面管理 UIFormsTable Id
+W物品 ItemCompose StuffID W物品 Items Id
+
+W微博 WeiboMessage ContentPictureID T图标 Icons Id
+W微博 WeiboMessage NPCCommentID W微博 WeiboNPCComment WeiboNPCCommentID
+W微博 WeiboMessage LikeNPCID W微博 WeiboRoleInfo WeiboRoleID
+W微博 WeiboRoleInfo Icon T图标 Icons Id
+W微博 WeiboNPCMessage WeiboRoleID W微博 WeiboRoleInfo WeiboRoleID
+W微博 WeiboNPCMessage Pictures T图标 Icons Id
+W微博 WeiboNPCMessage ForwardNPCWeiboID W微博 WeiboNPCMessage WeiboNPCMsgID
+W微博 WeiboNPCMessage ForwardWeiboID W微博 WeiboMessage WeiboMsgID
+W微博 WeiboNPCMessage WeiboCommentID W微博 WeiboNPCComment WeiboNPCCommentID
+W微博 WeiboNPCMessage WeiboForwardID W微博 WeiboForward WeiboForwardID
+W微博 WeiboNPCMessage ReplyID W微博 WeiboReply WeiboReplyID
+W微博 WeiboReply NPCID W微博 WeiboRoleInfo WeiboRoleID
+W微博 WeiboNPCComment CommentPeople W微博 WeiboRoleInfo WeiboRoleID
+W微博 WeiboNPCComment SubComments W微博 WeiboNPCComment WeiboNPCCommentID
+W微博 WeiboNPCComment ReplyID W微博 WeiboReply WeiboReplyID
+
+K卡牌 Card TransItem W物品 Items Id
+K卡牌 Card Icon T图标 Icons Id
+K卡牌 Card HeadIconId T图标 Icons Id
+K卡牌 Card HalfPic T图标 Icons Id
+K卡牌 Card ScreenPic T图标 Icons Id
+K卡牌 Card SkillNormal Z战斗 Skill SkillID
+K卡牌 Card SkillUltilate Z战斗 Skill SkillID
+K卡牌 Card Passiveness Z战斗 PassiveSkill PassiveSkillID
+K卡牌 Card BreakID K卡牌 CardBreakthrough BreakID
+K卡牌 Card AwakenID K卡牌 CardAwaken AwakenID
+K卡牌 Card CardThinHalf T图标 Icons Id
+K卡牌 Card QHeadIcon T图标 Icons Id
+K卡牌 Card RecruitSSRNameId T图标 Icons Id
+K卡牌抽卡招募 RecruitBase ItemID W物品 Items Id
+K卡牌抽卡招募 RecruitBase DropID1 W物品 Drop DropID
+K卡牌抽卡招募 RecruitBase DropID2 W物品 Drop DropID
+
+X协会 GuildDepot DescIdList X协会 GuildUpgradeDesc DescId
+X协会 GuildSecretariat DescIdList X协会 GuildUpgradeDesc DescId
+X协会 GuildCooperation DescIdList X协会 GuildUpgradeDesc DescId
+X协会二期 GuildAssetSkill DescIdList X协会 GuildUpgradeDesc DescId
+X协会二期 GuildTrain DescIdList X协会 GuildUpgradeDesc DescId
+X协会 GuildStageRewards StageId G怪物关卡 Stages StageID
+X协会 GuildStageRewards DropId W物品 Drop DropID
+X协会二期 GuildWelfare DropID W物品 Drop DropID
+X协会二期 GuildTask DropID W物品 Drop DropID
+X协会二期 GuildAttrSkill NextSkillID X协会二期 GuildAttrSkill ID
+X协会二期 GuildAssetSkill NextSkillID X协会二期 GuildAssetSkill ID
+X协会二期 GuildTask GotoType J界面管理 UIFormsTable Id
+
+X新手指引 NewGuideX AvailConditionIDs X新手指引 NewGuideAvailCondition ID
+
+W午夜逸闻 PlayBarEvent PlotId J剧情 PlotMain PlotId
+W午夜逸闻 PlayBarWeatherAffect AffectedCustomerIDs W午夜逸闻 PlayBarCustomer CustomerID
+W午夜逸闻 PlayBarCustomer PartnerID H伙伴 Partner PartnerID
+W午夜逸闻 PlayBarCustomer HalfPic T图标 Icons Id
+W午夜逸闻 PlayBarCustomer TreasureID W午夜逸闻 PlayBarTreasure TreasureID
+W午夜逸闻 PlayBarVIP Icon T图标 Icons Id
+W午夜逸闻 PlayBarWine WineIcon T图标 Icons Id
+W午夜逸闻 PlayBarTreasure Icon T图标 Icons Id
+W午夜逸闻 PlayBarTreasure LetterID1 W午夜逸闻 PlayBarLetter ID
+W午夜逸闻 PlayBarTreasure LetterID2 W午夜逸闻 PlayBarLetter ID
+W午夜逸闻 PlayBarTreasure LetterID3 W午夜逸闻 PlayBarLetter ID
+
+Y影音 AVWorksBase Post1Type Y影音 AVWorksActorName ID 
+Y影音 AVWorksBase Post2Type Y影音 AVWorksActorName ID 
+Y影音 AVWorksBase Post3Type Y影音 AVWorksActorName ID 
+Y影音 AVWorksBase Post4Type Y影音 AVWorksActorName ID 
+Y影音 AVWorksBase Post5Type Y影音 AVWorksActorName ID 
+Y影音 AVWorksBase Post6Type Y影音 AVWorksActorName ID 
+
+J剧情 PlotMain PlotDialog J剧情 PlotDialog Id

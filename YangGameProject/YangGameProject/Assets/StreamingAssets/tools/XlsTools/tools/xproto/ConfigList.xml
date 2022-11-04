@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configlist>
+<!--<config name="配置名" meta="结构名称" excel="excel文件名" sheet="数据sheet" desc="描述" type="0所有，1前台 2后台" client="前台配置需要的字段，用，隔开"/>-->
+
+  <config name="GameConfCfg" meta="GameConfCfg" excel="G游戏.xlsx" sheet="GameConf" />
+
+</configlist>
